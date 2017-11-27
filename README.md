@@ -1,5 +1,5 @@
 # Week 1
-This week I sketched out how my things will be arranged on my page. I also started reading about how to use bootstrap styles and navbar. I have really been struggling to understand it so far. I also collected all the data on the shelters I want to include in my map. I have been trying to get the map to work, but so far it hasn't worked. I read and collected information that will be included in my page such as why to adopt and resources for after adopting. I also picked out the colors for my page and decided I will be adding a paw print icon to give the page a kind of continuous theme.
+This week I sketched out how things will be arranged on my page. I also started reading about how to use bootstrap styles and navbar. I have been struggling to understand it so far. I also collected all the data on the shelters I want to include in my map. I have been trying to get the map to work, but so far it hasn't worked. I read and collected information that will be included in my page such as why to adopt and resources for new pet owners. I also picked out the colors for my page and decided I will be adding a paw print icon to give the page a kind of continuous theme.
 
 *resources
   *http://www.hhhstopeka.org/adopt/top-10-reasons-to-adopt-from-an-animal-shelter/
