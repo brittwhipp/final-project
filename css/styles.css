@@ -4,15 +4,37 @@
 }
 
 #navbar {
-  background: #737268;
+  background: #E3C2B1;
+  font-size: 150%;
+}
+
+#navbar_brand {
+  font-size: 200%;
+}
+
+#shelter_pics {
+  background:#FBCA41;
+  padding: 50px;
+  color: #fff
 }
 
 #section1 {
-  background: #262522;
+  background: #56B9D0;
   color: #fff;
+  padding: 50px;
+  font-size: 200%;
 }
 
 #section2 {
-  background: #D9383A;
+  background: #FBCA41;
   color: #fff;
+  padding: 50px;
+  font-size: 200%;
+}
+
+#section3 {
+  background: #56B9D0;
+  color: #fff;
+  padding: 50px;
+  font-size: 200%;
 }
