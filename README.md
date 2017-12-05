@@ -9,3 +9,6 @@ This week I sketched out how things will be arranged on my page. I also started 
   *http://getbootstrap.com/docs/4.0/getting-started/introduction/
   *https://www.w3schools.com/bootstrap/bootstrap_navbar.asp
   *http://leafletjs.com/examples/quick-start/
+  
+  # Week 2
+  This week I worked on fixing my map and navbar. The navbar is functional, however it does not stay at the top while scrolling, so I need to work on that. I added all my visual content and colors. I had a little trouble figuring out the bootstrap grid for the photos at the top of the page and I may still move them around a little, but for now I am understanding the concept. The page is more interactive now and next I will be adding the text and making it preetier, as well as, making it mobile friendly.
