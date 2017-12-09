@@ -1,6 +1,7 @@
 body {
   background: #FBCA41;
 }
+
 #map {
   height: 850px;
   width: 700px;
@@ -8,18 +9,21 @@ body {
 
 .navbar {
   background: #56B9D0;
-  font-size: 150%;
+  font-size: 90%;
 }
+
 #brand {
   font-size: 150%;
   margin-bottom: 30px;
   margin-top: 10px;
   color: #fff;
 }
+
 #links {
   position: absolute;
   right: 20px;
 }
+
 #navbar_brand {
   font-size: 200%;
 }
@@ -65,4 +69,10 @@ a {
   text-align: center;
   padding-top: 50px;
   color: #000;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    font-size: 150%;
+  }
 }
