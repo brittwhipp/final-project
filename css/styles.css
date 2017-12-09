@@ -1,40 +1,68 @@
+body {
+  background: #FBCA41;
+}
 #map {
-  height: 500px;
+  height: 850px;
   width: 700px;
 }
 
-#navbar {
+.navbar {
   background: #56B9D0;
   font-size: 150%;
 }
-
+#brand {
+  font-size: 150%;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  color: #fff;
+}
+#links {
+  position: absolute;
+  right: 20px;
+}
 #navbar_brand {
   font-size: 200%;
 }
 
 #shelter_pics {
+  max-width: 80%;
   background:#FBCA41;
   padding: 50px;
   color: #fff
+}
+
+.yellow {
+  background:#FBCA41;
+  padding-top: 170px;
 }
 
 #section1 {
   background: #56B9D0;
   color: #fff;
   padding: 50px;
-  font-size: 200%;
+  font-size: 150%;
 }
 
 #section2 {
   background: #FBCA41;
   color: #fff;
   padding: 50px;
-  font-size: 200%;
+  font-size: 150%;
 }
 
 #section3 {
   background: #56B9D0;
   color: #fff;
   padding: 50px;
-  font-size: 200%;
+  font-size: 150%;
+}
+
+a {
+  color: #fff;
+}
+
+#my_name {
+  text-align: center;
+  padding-top: 50px;
+  color: #000;
 }

@@ -9,69 +9,78 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="">
 
 <link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/boostrap.css">
-
 <link rel="stylesheet" href="css/styles.css">
 
 </head>
 
 <body>
 
-<div id="navbar">
-	<nav class="navbar navbar-fixed-top">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-				<a class="navbar-brand">Adopt, Don't Shop!<img src="images/paw_print.png" alt="img-responsive" class="img-circle"></a>
-			</div>
-	    <ul class="nav navbar-nav">
-	      <li><a href="#section1">Why Adopt?</a></li>
-	      <li><a href="#section2">Where to Adopt?</a></li>
-	      <li><a href="#section3">Resources</a></li>
+
+	<nav class="navbar navbar-expand-md fixed-top">
+				<a id="brand" class="navbar-brand ">Adopt, Don't Shop!<img src="images/paw_print.png" alt="img-responsive" class="img-circle"></a>
+	    <ul id="links" class="nav flex-column">
+	      <li class="nav-item"><a href="#section1">Why Adopt?</a></li>
+	      <li class="nav-item"><a href="#section2">Where to Adopt?</a></li>
+				<li class="nav-item"><a href="#section3">Resources</a></li>
 	    </ul>
-	  </div>
 	</nav>
-</div>
 
-<div class="container.fluid">
+<div class="container yellow">
 
-	<div id="shelter_pics">
-<div class="row">
-		<div class="col-xs-4"><img src="images/shelter_dog.jpg" alt="Photo: Shelter Dog"><p>Taken from flickr.com by Kelly Warren</p></div>
-
-		<div class="col-md-4"><img src="images/shelter_cat.jpg" alt="Photo: Shelter Kitten With Man"><p>Taken from flickr.com by Orange County Animal Service's</p></div>
-</div>
-
-<div class="row">
-
-	<div class="col-xs-4"><img src="images/shelter_cat2.jpg" alt="Photo: Shelter Kittens"><p>Taken from flickr.com</p></div>
-
-	<div class="col-md-4"><img src="images/shelter_dog2.jpg" alt="Photo: Shelter Dog With Man"><p>Taken from flickr.com by Orange County Animal Service's</p></div>
-</div>
-	</div>
-		</div>
-
-<div id="section1">
 	<div class="row">
-	  <div class="col-md-8">Why you should adopt:</div>
-	  <div class="col-md-4"><img src="images/paw_print.png" alt="img-responsive" class="img-circle"></div>
+			<div class="col-md-7"><img class="img-fluid" src="images/shelter_dog.jpg" alt="Photo: Shelter Dog"><p>Taken from flickr.com by Kelly Warren</p></div>
+
+			<div class="col-md-5"><img class="img-fluid" src="images/shelter_cat.jpg" alt="Photo: Shelter Kitten With Man"><p>Taken from flickr.com by Orange County Animal Services</p></div>
 	</div>
-	<p> Here is why you should adopt shelter animals.</p>
+
+	<div class="row">
+		<div class="col-md-7"><img class="img-fluid" src="images/shelter_cat2.jpg" alt="Photo: Shelter Kittens"><p>Taken from flickr.com</p></div>
+
+		<div class="col-md-5"><img class="img-fluid" src="images/shelter_dog2.jpg" alt="Photo: Shelter Dog With Man"><p>Taken from flickr.com by Orange County Animal Services</p></div>
+	</div>
+</div>
+
+
+<div id="section1" class="container-fluid">
+	<div class="row">
+	  <div class="col"><h1>Why you should adopt:</h1><img src="images/paw_print.png" alt="img-responsive" class="img-circle"></div>
+	</div>
+	<p>There are many reasons to adopt a shelter pet, here are just a few. First, you are giving an animal a second chance at a happy life. You would be helping the pet overpopulation problem, and making room in the shelter for more animals in need. This also helps contribute to stopping cruel mass breeding facilities. Many don’t know that a lot of shelter animals are already house trained, especially the adult dogs. And many shelters have low adoption fees. Adopting a shelter pet also encourages others to adopt from shelters when they see how wonderful your pet is. Having a pet can help you maintain an active lifestyle and can provide physical and mental health benefits. So, if you are ready to adopt, check out your local shelters first!</p>
 </div>
 
 <div id="section2">
 	<div class="row">
-	<div class="col-md-8">Where to adopt in Gainesvile:</div>
-	<div class="col-md-4"><img src="images/paw_print.png" alt="img-responsive" class="img-circle"></div>
+	<div class="col-md-8"><h2>Where to adopt in Gainesvile:</h2></div>
+	<div class="col-md-4"><img src="images/paw_print.png" alt="img-responsive" class="img-circle"><h3>Shelter Information:</h3></div>
 	</div>
-	<div id="map"></div>
+	<div class="row">
+	<div id="map" class="col-md-8"></div>
+		<div class="col-md-4"<p>Alachua Country Humane Society<br> (352)373-5855<br>Plenty Of Pit Bulls<br>Adoption viewings at PetSmart and Petco on select weekends.<br>Paws On Parole/Paws Unleased<br>(352)264-6881 Adoption viewings at Earth Pets Natural Pet Market on select weekends.<br>Gainesville Pet Rescue<br>(352)692-4773<br>Helping Hands Pet Rescue<br>Adoption viewings at PetSmart on select weekends.<br>Haile's Angels<br>(352)505-0302<br>Alachua County Animal Services<br>(352)264-6870<br>Pupp Hill Farm Animal Rescue<br>(352)478-1444 Adoption viewings at PetSmart on select weekends.<br>Second Chance Rescue & Rehoming<br>Adoption viewings at Earth Pets Natural Pet Market on select weekends.</p>
+		</div>
+	</div>
 </div>
 
 <div id="section3">
 	<div class="row">
-	  <div class="col-md-8">Resources for new pet owners:</div>
-	  <div class="col-md-4"><img src="images/paw_print.png" alt="img-responsive" class="img-circle"></div>
+	  <div class="col"><h4>Resources for new pet owners:</h4><img src="images/paw_print.png" alt="img-responsive" class="img-circle"></div>
 	</div>
-	<p> Here are some resources for you new pet owners out there.</p>
+
+	<ul> New dog owners:
+			<li><a href="https://topdogtips.com/resources-new-dog-owner/">10 Useful Resources for A New Dog Owner</a></li>
+			<li><a href="https://www.rover.com/blog/10-websites-every-new-dog-owner-bookmark/">10 Websites Every New Dog Owner Should Bookmark</a></li>
+			<li> <a href="http://www.humanesociety.org/animals/dogs/tips/bringing_new_dog_home.html?credit=ad_gg_search_pettips_011416&gclid=CjwKCAiAjanRBRByEiwAKGyjZZwsc0_dzeaT881CWnE0EM1wBox_NjOIH5fUoAMvjlkg5mrnDe6pyBoCgdgQAvD_BwE?referrer=https://www.google.com/">Bringing Your New Dog Home</a></li>
+	</ul>
+
+	<ul> New cat owners:
+
+			<li><a href="https://www.petmd.com/cat/care/evr_ct_tips_for_new_cat_owners">10 Tips for New Cat Owners</a></li>
+			<li><a href="https://www.catvets.com/cat-owners/brochures">Cat Owner Educational Brochures</a></li>
+			<li> <a href="https://bestfriends.org/resources/bringing-new-cat-home-how-prevent-problems-day-one">Bringing a New Cat Home: How to Prevent Problems from Day One</a></li>
+	</ul>
+
+<div id="my_name"
+	<p> This page was created by Brittney Whipple.	</p>
+
 </div>
 
 	<script src="js/places.json"></script>
@@ -88,7 +97,7 @@
 
 		for ( var i=0; i < places.length; i++ ) {
 			L.marker( [places[i].latitude, places[i].longitude] )
-			.bindPopup( '<h3>' + places[i].place + '</h3>' + '<p>' + places[i].address + '</p>')
+			.bindPopup( '<h3>' + places[i].shelter + '</h3>' + '<p>' + places[i].adress + '</p><p>' + places[i].phoneNumber + '</p>' )
 			.addTo( mymap );
 		}
 
